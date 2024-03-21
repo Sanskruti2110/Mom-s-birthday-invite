@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Pangolin", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+}
+html , body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1frs;
+    gap: 8px;
+    width: 1000px;
+    height: 1300px;
+    outline: 10px double black;
+    position: absolute;
+    left: 200px;    
+}
+
+#box-1{
+    background-color: #FFD4B2;
+    grid-column: span 2;
+    border: 2px solid black;
+    border-left: none;
+    text-align: center;
+    font-size: 80px;
+    position: relative;
+    font-weight: 600;
+}
+
+#join_us{
+   padding-top: 80px;
+}
+
+#box-2{
+    background-color: #FAAB78;
+    grid-row: span 2;
+    border: 2px solid black;
+    border-right: none;  
+}
+
+#happy_bday{
+    height: 799px;
+    object-fit: fill;
+}
+
+#box-3{
+    background-color: #FFF6BD;
+    grid-column: span 2;
+    border: 2px solid black;
+    border-left: none;
+    font-size: 80px;
+    font-weight: 600;
+}
+
+#mom_bday{
+    text-align: center;   
+}
+
+#box-4{
+    background-color: CEEDC7;
+    grid-column: span 3;
+    border: 2px solid black;
+    border-left: none;
+    border-right: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+
+#img-1{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    padding-left: 50px;
+}
+
+#img-2{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    padding-left: 50px;
+}
+
+#img-3{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    padding-left: 50px;
+}
+
+#box-5{
+    background-color: 86C8BC;
+    grid-column: span 3;
+    border: 2px solid black;
+    border-left: none;
+    border-right: none;
+}
+
+#special_invite{
+    margin-left: 100px;
+
+}
+
+h3{
+    font-size: 40px;
+    position: relative;
+    left: 350px;
+}
+
+.frd_images{
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+#special_invite{
+    display: flex;
+    padding-left: 80px;
+}
+
+h5{
+    font-size: 20px;
+    padding-left: 35px;
+}
+
+#box-6{
+    background-color: #ADA2FF;
+    grid-column: span 3;
+    border: 2px solid black;
+    border-left: none;
+    border-right: none;
+}
+
+h1{
+    width: 500px;
+    height: 250px;    
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    left: 400px;
+    top: 15px;
+    font-size: 100px;
+}
+
+#footer{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
